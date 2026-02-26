@@ -1,0 +1,8 @@
+{
+  "idf.espIdfPath": "/home/gamitasvp/.espressif/v5.5.3/esp-idf",
+  "idf.pythonBinPath": "/home/gamitasvp/.espressif/python_env/idf5.5_py3.10_env/bin/python",
+  "idf.toolsPath": "/home/gamitasvp/.espressif/tools",
+  "idf.port": "/dev/ttyUSB0",
+  "idf.flashBaudRate": "460800",
+  "idf.currentSetup": "/home/gamitasvp/.espressif/v5.5.3/esp-idf"
+}

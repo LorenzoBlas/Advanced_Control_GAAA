@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ESP-IDF: Build",
+      "type": "shell",
+      "command": "source /home/gamitasvp/.espressif/v5.5.3/esp-idf/export.sh && idf.py build",
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "ESP-IDF: Flash",
+      "type": "shell",
+      "command": "source /home/gamitasvp/.espressif/v5.5.3/esp-idf/export.sh && idf.py flash",
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "ESP-IDF: Monitor",
+      "type": "shell",
+      "command": "source /home/gamitasvp/.espressif/v5.5.3/esp-idf/export.sh && idf.py monitor",
+      "isBackground": true
+    },
+    {
+      "label": "ESP-IDF: Build & Flash",
+      "type": "shell",
+      "command": "source /home/gamitasvp/.espressif/v5.5.3/esp-idf/export.sh && idf.py build flash",
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

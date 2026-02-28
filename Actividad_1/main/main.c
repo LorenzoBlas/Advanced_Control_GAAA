@@ -17,13 +17,6 @@ esp_err_t init_led(void){
     
     esp_err_t err = gpio_set_direction(LED, GPIO_MODE_OUTPUT);
     
-    if(err != ESP_OK){
-        ESP_LOGE(TAG, "ERROR: No se pudo configurar el pin como salida. Código de error: %s", esp_err_to_name(err));
-        return err;
-    }
-    
-    ESP_LOGI(TAG, "LED inicializado exitosamente en pin %d", LED);
-    
     return err;
 }
 
